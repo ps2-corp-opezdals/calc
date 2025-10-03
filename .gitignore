@@ -1,41 +1,84 @@
-# Prerequisites
-*.d
+# ==================== #
+#   CMake сборка       #
+# ==================== #
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Папка сборки (самая важная строка!)
+build/
+*/build/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
 
-# Linker files
-*.ilk
+# Мульти-конфигурационные сборки (Visual Studio, Xcode)
+*.sln
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.proj
+*.props
+*.xml
+*.tlog
+*.log
+x64/
+x86/
+Win32/
+Debug/
+Release/
+*.dir/
+*.vcxproj.*.tmp
 
-# Debugger Files
-*.pdb
+# ==================== #
+#   Скомпилированные файлы #
+# ==================== #
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Исполняемые файлы
 *.exe
 *.out
 *.app
 
-# debug information files
+# Объектные файлы
+*.o
+*.obj
+*.ko
+
+# Библиотеки
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Отладочная информация
 *.dwo
+*.dwp
+*.pdb
+*.idb
+*.ilk
+
+# Прекомпилированные заголовки
+*.gch
+*.pch
+
+# ==================== #
+#   Системные файлы    #
+# ==================== #
+
+# Резервные копии
+*~
+*.bak
+*.backup
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
