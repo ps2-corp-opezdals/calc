@@ -20,3 +20,15 @@ void Calculator::get_info()
     std::cout << "model--" << model << std::endl;
     std::cout << "name--" << name << std::endl;
 }
+float Calculator::Plus(float a, float b){
+    return a+b;
+}
+float Calculator::Minus(float a, float b){
+    return a-b;
+}
+float Calculator::Umnozh(float a, float b){
+    return a*b;
+}
+float Calculator::Del(float a, float b){
+    return a/b;
+}
