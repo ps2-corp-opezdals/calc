@@ -9,6 +9,13 @@ private:
     unsigned int year;
     std::string name;
     unsigned int model;
+    float Plus(float a, float b);
+    float Minus(float a, float b);
+    float Umnozh(float a, float b);
+    float Del(float a, float b);
+
+
+
 
 public:
     ~Calculator();
