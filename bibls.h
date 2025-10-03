@@ -11,7 +11,9 @@ private:
     unsigned int model;
 
 public:
+    ~Calculator();
     Calculator(unsigned int y, unsigned int m, std::string n);
+    Calculator();
     void get_info();
 };
 
