@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.16)
 project(Zavod)
 set(CMAKE_CXX_STANDARD 11)
-add_executable(Zavod calc.cpp main.cpp)
+add_executable(Zavod calc.cpp main.cpp QWE.cpp)

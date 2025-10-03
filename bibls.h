@@ -22,4 +22,6 @@ public:
     void get_info();
 };
 
+int rand();
+
 #endif
