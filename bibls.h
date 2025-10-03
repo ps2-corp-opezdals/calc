@@ -1,9 +1,18 @@
-
+#ifndef BIBLS_H
+#define BIBLS_H
 #include <iostream>
 #include <string>
 
-#ifndef BIBLS_H
-#define BIBLS_H
+class Calculator
+{
+private:
+    unsigned int year;
+    std::string name;
+    unsigned int model;
 
+public:
+    Calculator(unsigned int y, unsigned int m, std::string n);
+    void get_info();
+};
 
 #endif
